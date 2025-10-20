@@ -1,0 +1,4 @@
+.online { color: #00ff88; font-weight: 700; }
+.offline { color: #bbb; font-weight: 600; }
+.roblox-card { transition: transform .18s ease; }
+.roblox-card:hover { transform: translateY(-4px); }
