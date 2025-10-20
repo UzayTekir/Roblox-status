@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Roblox Status | Ana Sayfa</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Roblox Status 🇹🇷</h1>
+    <nav>
+      <a href="index.html">Ana Sayfa</a>
+      <a href="biz-kimiz.html">Biz Kimiz</a>
+      <a href="hesaplar.html">Resmi Hesaplar</a>
+      <a href="oyunlar.html">Yetkili Olduğum Oyunlar</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- data-user-id alanına verdiğin ID yerleşiyor -->
+    <div id="roblox-card" class="roblox-card" data-user-id="9202458442">
+      <img id="avatar-img" src="assets/avatar.png" alt="Avatar">
+      <h2 id="username">Yükleniyor...</h2>
+      <p>Durum: <span id="presence" class="offline">Yükleniyor</span></p>
+      <p>Grup: <strong id="group-name">Yok</strong></p>
+      <p>Oynadığı Oyun: <strong id="game-name">—</strong></p>
+
+      <div style="margin-top:14px;">
+        <a id="profile-btn" href="#" class="animated-button" target="_blank" rel="noopener">Profili Aç</a>
+        <a id="discord-btn" href="https://discord.gg/" class="animated-button" target="_blank" rel="noopener">Discord Daveti</a>
+      </div>
+
+      <div id="groups-list" style="margin-top:18px; text-align:left;"></div>
+      <div id="card-error" style="margin-top:12px;color:#ff8b8b;display:none;"></div>
+    </div>
+
+    <div class="category-section">
+      <h3>Hızlı Bağlantılar</h3>
+      <a href="https://www.roblox.com/home" class="animated-button">Roblox Ana Sayfa</a>
+      <a href="https://www.roblox.com/games" class="animated-button">Oyunlar</a>
+    </div>
+  </main>
+
+  <footer>
+    © 2025 Roblox Status Türkiye | İlk Türk Roblox Status Sistemi
+  </footer>
+</body>
+</html>
